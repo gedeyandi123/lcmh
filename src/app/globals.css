@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: light;
+  /* Reserve scrollbar space permanently so page-content width doesn't shift when a
+     filter/interaction changes content height enough to toggle the scrollbar on/off. */
+  scrollbar-gutter: stable;
+}
+body {
+  @apply bg-white text-slate-900 antialiased;
+}
