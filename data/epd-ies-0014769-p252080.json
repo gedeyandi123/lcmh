@@ -1,0 +1,52 @@
+{
+  "schemaVersion": "1.0.0",
+  "extractionVersion": "2026-07-01T01:30:50Z",
+  "sourcePdf": {
+    "fileName": "EPD-IES-0014769_P252080.pdf",
+    "pageCount": 28,
+    "textCharCount": 36100,
+    "family": "Other IES / consultant EPD"
+  },
+  "epd": {
+    "declarationNumber": "EPD-IES-0014769:001",
+    "programOperator": "EPD International AB",
+    "publisher": null,
+    "validUntil": "2029-08-26"
+  },
+  "products": [
+    {
+      "id": "epd-ies-0014769-p252080-pdf",
+      "name": "P252080",
+      "manufacturer": "Hanson Construction Materials",
+      "declaredUnit": {
+        "value": null,
+        "status": "missing",
+        "provenance": null,
+        "reviewStatus": "needs_review"
+      },
+      "compressiveStrength": {
+        "value": null,
+        "unit": "MPa",
+        "status": "missing",
+        "provenance": null,
+        "reviewStatus": "needs_review"
+      },
+      "manufacturingLocation": {
+        "value": null,
+        "status": "missing",
+        "provenance": null,
+        "reviewStatus": "needs_review"
+      },
+      "comparisonStatus": "review_required",
+      "comparisonStatusReason": "Multi-mix / site-variation EPD whose GWP totals are reported in mix-specific tables without a single clean lifecycle-module header; not source-reviewed into comparable per-product values. Visible for review, excluded from comparison.",
+      "lifecycleModules": {},
+      "reviewNotes": [
+        "GWP totals present in the PDF but in a non-standard mix-specific layout; require manual per-mix review before comparison."
+      ]
+    }
+  ],
+  "reviewNotes": [
+    "Values source-reviewed via text/table cross-validation of pdfplumber output against the source EPD (page rendering unavailable in the build environment).",
+    "No GWP-total lifecycle row was mapped from tables in the automated pass."
+  ]
+}

@@ -1,0 +1,228 @@
+{
+  "schemaVersion": "1.0.0",
+  "extractionVersion": "2026-07-01T01:30:50Z",
+  "sourcePdf": {
+    "fileName": "epd-ies-0021754-001-acm-rockbank-ar2520.pdf",
+    "pageCount": 25,
+    "textCharCount": 41570,
+    "family": "Other IES / consultant EPD"
+  },
+  "epd": {
+    "declarationNumber": "EPD-IES-0021754:001",
+    "programOperator": "EPD International AB",
+    "publisher": null,
+    "validUntil": "2030-08-15"
+  },
+  "products": [
+    {
+      "id": "ar2520-pre-mixed-concrete",
+      "name": "AR2520 pre-mixed concrete",
+      "manufacturer": "Aurora Construction Materials",
+      "declaredUnit": {
+        "value": "1 cubic metre (m3) of Premixed concrete",
+        "status": "declared",
+        "provenance": {
+          "pdfFile": "epd-ies-0021754-001-acm-rockbank-ar2520.pdf",
+          "page": 7,
+          "section": "Declared unit",
+          "tableLabel": null,
+          "rowLabel": "Declared unit",
+          "columnLabel": "Value",
+          "sourceLabel": "Declared unit",
+          "rawText": "1 cubic metre (m3) of Premixed concrete",
+          "extractionMethod": "pdf_text_manual_verified"
+        },
+        "reviewStatus": "reviewed"
+      },
+      "compressiveStrength": {
+        "value": 25.0,
+        "unit": "MPa",
+        "status": "declared",
+        "provenance": {
+          "pdfFile": "epd-ies-0021754-001-acm-rockbank-ar2520.pdf",
+          "page": 5,
+          "section": "Product information",
+          "tableLabel": null,
+          "rowLabel": "Strength / mix designation",
+          "columnLabel": "Value",
+          "sourceLabel": "Strength / mix designation",
+          "rawText": "AR2520 25MPa 2 270 kg/m3 General use concrete",
+          "extractionMethod": "pdf_text_manual_verified"
+        },
+        "reviewStatus": "reviewed",
+        "reviewNote": "Strength read from the product/mix designation in the source; verify against mix spec."
+      },
+      "manufacturingLocation": {
+        "value": "Rockbank",
+        "status": "declared",
+        "provenance": {
+          "pdfFile": "epd-ies-0021754-001-acm-rockbank-ar2520.pdf",
+          "page": 1,
+          "section": "Manufacturer and site",
+          "tableLabel": null,
+          "rowLabel": "Manufacturing location",
+          "columnLabel": "Value",
+          "sourceLabel": "Manufacturing location",
+          "rawText": "Rockbank",
+          "extractionMethod": "pdf_text_manual_verified"
+        },
+        "reviewStatus": "reviewed"
+      },
+      "comparisonStatus": "comparison_eligible",
+      "comparisonStatusReason": "Reviewed A1-A3 GWP total declared for the declared unit with value-level provenance; lifecycle modules source-reviewed from the impact table.",
+      "lifecycleModules": {
+        "A1-A3": {
+          "gwpTotal": {
+            "indicator": "gwp_total",
+            "sourceLabel": "GWP-tot",
+            "module": "A1-A3",
+            "value": 140.0,
+            "rawValue": "1.40E+02",
+            "unit": "kg CO2e",
+            "status": "declared",
+            "provenance": {
+              "pdfFile": "epd-ies-0021754-001-acm-rockbank-ar2520.pdf",
+              "page": 18,
+              "section": "Environmental impact indicators",
+              "tableLabel": "Core environmental impact indicators (GWP total)",
+              "rowLabel": "GWP-total",
+              "columnLabel": "A1-A3",
+              "sourceLabel": "GWP-tot",
+              "rawText": "GWP-total kg CO -eq. 2 1.40E+02 1.20E+01 1.45E+01 8.03E+00 8.61E-01 -9.79E+00",
+              "extractionMethod": "pdf_table_manual_verified"
+            },
+            "extractionConfidence": "high",
+            "reviewStatus": "reviewed"
+          }
+        },
+        "C1": {
+          "gwpTotal": {
+            "indicator": "gwp_total",
+            "sourceLabel": "GWP-tot",
+            "module": "C1",
+            "value": 12.0,
+            "rawValue": "1.20E+01",
+            "unit": "kg CO2e",
+            "status": "declared",
+            "provenance": {
+              "pdfFile": "epd-ies-0021754-001-acm-rockbank-ar2520.pdf",
+              "page": 18,
+              "section": "Environmental impact indicators",
+              "tableLabel": "Core environmental impact indicators (GWP total)",
+              "rowLabel": "GWP-total",
+              "columnLabel": "C1",
+              "sourceLabel": "GWP-tot",
+              "rawText": "GWP-total kg CO -eq. 2 1.40E+02 1.20E+01 1.45E+01 8.03E+00 8.61E-01 -9.79E+00",
+              "extractionMethod": "pdf_table_manual_verified"
+            },
+            "extractionConfidence": "high",
+            "reviewStatus": "reviewed"
+          }
+        },
+        "C2": {
+          "gwpTotal": {
+            "indicator": "gwp_total",
+            "sourceLabel": "GWP-tot",
+            "module": "C2",
+            "value": 14.5,
+            "rawValue": "1.45E+01",
+            "unit": "kg CO2e",
+            "status": "declared",
+            "provenance": {
+              "pdfFile": "epd-ies-0021754-001-acm-rockbank-ar2520.pdf",
+              "page": 18,
+              "section": "Environmental impact indicators",
+              "tableLabel": "Core environmental impact indicators (GWP total)",
+              "rowLabel": "GWP-total",
+              "columnLabel": "C2",
+              "sourceLabel": "GWP-tot",
+              "rawText": "GWP-total kg CO -eq. 2 1.40E+02 1.20E+01 1.45E+01 8.03E+00 8.61E-01 -9.79E+00",
+              "extractionMethod": "pdf_table_manual_verified"
+            },
+            "extractionConfidence": "high",
+            "reviewStatus": "reviewed"
+          }
+        },
+        "C3": {
+          "gwpTotal": {
+            "indicator": "gwp_total",
+            "sourceLabel": "GWP-tot",
+            "module": "C3",
+            "value": 8.03,
+            "rawValue": "8.03E+00",
+            "unit": "kg CO2e",
+            "status": "declared",
+            "provenance": {
+              "pdfFile": "epd-ies-0021754-001-acm-rockbank-ar2520.pdf",
+              "page": 18,
+              "section": "Environmental impact indicators",
+              "tableLabel": "Core environmental impact indicators (GWP total)",
+              "rowLabel": "GWP-total",
+              "columnLabel": "C3",
+              "sourceLabel": "GWP-tot",
+              "rawText": "GWP-total kg CO -eq. 2 1.40E+02 1.20E+01 1.45E+01 8.03E+00 8.61E-01 -9.79E+00",
+              "extractionMethod": "pdf_table_manual_verified"
+            },
+            "extractionConfidence": "high",
+            "reviewStatus": "reviewed"
+          }
+        },
+        "C4": {
+          "gwpTotal": {
+            "indicator": "gwp_total",
+            "sourceLabel": "GWP-tot",
+            "module": "C4",
+            "value": 0.861,
+            "rawValue": "8.61E-01",
+            "unit": "kg CO2e",
+            "status": "declared",
+            "provenance": {
+              "pdfFile": "epd-ies-0021754-001-acm-rockbank-ar2520.pdf",
+              "page": 18,
+              "section": "Environmental impact indicators",
+              "tableLabel": "Core environmental impact indicators (GWP total)",
+              "rowLabel": "GWP-total",
+              "columnLabel": "C4",
+              "sourceLabel": "GWP-tot",
+              "rawText": "GWP-total kg CO -eq. 2 1.40E+02 1.20E+01 1.45E+01 8.03E+00 8.61E-01 -9.79E+00",
+              "extractionMethod": "pdf_table_manual_verified"
+            },
+            "extractionConfidence": "high",
+            "reviewStatus": "reviewed"
+          }
+        },
+        "D": {
+          "gwpTotal": {
+            "indicator": "gwp_total",
+            "sourceLabel": "GWP-tot",
+            "module": "D",
+            "value": -9.79,
+            "rawValue": "-9.79E+00",
+            "unit": "kg CO2e",
+            "status": "declared",
+            "provenance": {
+              "pdfFile": "epd-ies-0021754-001-acm-rockbank-ar2520.pdf",
+              "page": 18,
+              "section": "Environmental impact indicators",
+              "tableLabel": "Core environmental impact indicators (GWP total)",
+              "rowLabel": "GWP-total",
+              "columnLabel": "D",
+              "sourceLabel": "GWP-tot",
+              "rawText": "GWP-total kg CO -eq. 2 1.40E+02 1.20E+01 1.45E+01 8.03E+00 8.61E-01 -9.79E+00",
+              "extractionMethod": "pdf_table_manual_verified"
+            },
+            "extractionConfidence": "high",
+            "reviewStatus": "reviewed",
+            "reviewNote": "Negative value declared in source (module benefit/credit); provenance-backed."
+          }
+        }
+      },
+      "reviewNotes": [
+        "Lifecycle GWP totals cross-validated from pdfplumber table extraction against the EPD impact table."
+      ]
+    }
+  ],
+  "reviewNotes": [
+    "Values source-reviewed via text/table cross-validation of pdfplumber output against the source EPD (page rendering unavailable in the build environment)."
+  ]
+}

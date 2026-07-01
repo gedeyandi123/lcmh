@@ -1,0 +1,316 @@
+{
+  "schemaVersion": "1.0.0",
+  "extractionVersion": "2026-07-01T01:30:50Z",
+  "sourcePdf": {
+    "fileName": "EPD_HUB-5882_2026-06-27_en.pdf",
+    "pageCount": 20,
+    "textCharCount": 34364,
+    "family": "EPD Hub / One Click LCA"
+  },
+  "epd": {
+    "declarationNumber": null,
+    "programOperator": null,
+    "publisher": null,
+    "validUntil": null
+  },
+  "products": [
+    {
+      "id": "40-mpa-high-performance-concrete",
+      "name": "40 MPa High Performance Concrete",
+      "manufacturer": "Boral",
+      "declaredUnit": {
+        "value": "1 cubic metre",
+        "status": "declared",
+        "provenance": {
+          "pdfFile": "EPD_HUB-5882_2026-06-27_en.pdf",
+          "page": 4,
+          "section": "Environmental data summary",
+          "tableLabel": null,
+          "rowLabel": "Declared unit",
+          "columnLabel": "Value",
+          "sourceLabel": "Declared unit",
+          "rawText": "Declared unit 1 cubic metre",
+          "extractionMethod": "pdf_text_manual_verified"
+        },
+        "reviewStatus": "reviewed"
+      },
+      "compressiveStrength": {
+        "value": 40.0,
+        "unit": "MPa",
+        "status": "declared",
+        "provenance": {
+          "pdfFile": "EPD_HUB-5882_2026-06-27_en.pdf",
+          "page": 1,
+          "section": "Product characteristics",
+          "tableLabel": null,
+          "rowLabel": "Compressive strength class",
+          "columnLabel": "Value",
+          "sourceLabel": "Compressive strength class",
+          "rawText": "40 MPa High Performance Concrete",
+          "extractionMethod": "pdf_text_manual_verified"
+        },
+        "reviewStatus": "reviewed"
+      },
+      "manufacturingLocation": {
+        "value": "Melbourne",
+        "status": "declared",
+        "provenance": {
+          "pdfFile": "EPD_HUB-5882_2026-06-27_en.pdf",
+          "page": 3,
+          "section": "Manufacturer and site",
+          "tableLabel": null,
+          "rowLabel": "Place of production",
+          "columnLabel": "Value",
+          "sourceLabel": "Place of production",
+          "rawText": "Place of production Melbourne",
+          "extractionMethod": "pdf_text_manual_verified"
+        },
+        "reviewStatus": "reviewed"
+      },
+      "comparisonStatus": "comparison_eligible",
+      "comparisonStatusReason": "Reviewed A1-A3 GWP total declared for 1 cubic metre with value-level provenance; strength, location, unit and lifecycle modules source-reviewed.",
+      "lifecycleModules": {
+        "A1": {
+          "gwpTotal": {
+            "indicator": "gwp_total",
+            "sourceLabel": "GWP - total1",
+            "module": "A1",
+            "value": 276.0,
+            "rawValue": "2.76E+02",
+            "unit": "kg CO2e",
+            "status": "declared",
+            "provenance": {
+              "pdfFile": "EPD_HUB-5882_2026-06-27_en.pdf",
+              "page": 13,
+              "section": "Environmental impact indicators",
+              "tableLabel": "Core environmental impact indicators (GWP total)",
+              "rowLabel": "GWP - total1",
+              "columnLabel": "A1",
+              "sourceLabel": "GWP - total1",
+              "rawText": "GWP - total1 kg COe 2 2.76E+02 1.50E+01 5.60E+00 2.97E+02",
+              "extractionMethod": "pdf_table_manual_verified"
+            },
+            "extractionConfidence": "high",
+            "reviewStatus": "reviewed"
+          }
+        },
+        "A2": {
+          "gwpTotal": {
+            "indicator": "gwp_total",
+            "sourceLabel": "GWP - total1",
+            "module": "A2",
+            "value": 15.0,
+            "rawValue": "1.50E+01",
+            "unit": "kg CO2e",
+            "status": "declared",
+            "provenance": {
+              "pdfFile": "EPD_HUB-5882_2026-06-27_en.pdf",
+              "page": 13,
+              "section": "Environmental impact indicators",
+              "tableLabel": "Core environmental impact indicators (GWP total)",
+              "rowLabel": "GWP - total1",
+              "columnLabel": "A2",
+              "sourceLabel": "GWP - total1",
+              "rawText": "GWP - total1 kg COe 2 2.76E+02 1.50E+01 5.60E+00 2.97E+02",
+              "extractionMethod": "pdf_table_manual_verified"
+            },
+            "extractionConfidence": "high",
+            "reviewStatus": "reviewed"
+          }
+        },
+        "A3": {
+          "gwpTotal": {
+            "indicator": "gwp_total",
+            "sourceLabel": "GWP - total1",
+            "module": "A3",
+            "value": 5.6,
+            "rawValue": "5.60E+00",
+            "unit": "kg CO2e",
+            "status": "declared",
+            "provenance": {
+              "pdfFile": "EPD_HUB-5882_2026-06-27_en.pdf",
+              "page": 13,
+              "section": "Environmental impact indicators",
+              "tableLabel": "Core environmental impact indicators (GWP total)",
+              "rowLabel": "GWP - total1",
+              "columnLabel": "A3",
+              "sourceLabel": "GWP - total1",
+              "rawText": "GWP - total1 kg COe 2 2.76E+02 1.50E+01 5.60E+00 2.97E+02",
+              "extractionMethod": "pdf_table_manual_verified"
+            },
+            "extractionConfidence": "high",
+            "reviewStatus": "reviewed"
+          }
+        },
+        "A1-A3": {
+          "gwpTotal": {
+            "indicator": "gwp_total",
+            "sourceLabel": "GWP - total1",
+            "module": "A1-A3",
+            "value": 297.0,
+            "rawValue": "2.97E+02",
+            "unit": "kg CO2e",
+            "status": "declared",
+            "provenance": {
+              "pdfFile": "EPD_HUB-5882_2026-06-27_en.pdf",
+              "page": 13,
+              "section": "Environmental impact indicators",
+              "tableLabel": "Core environmental impact indicators (GWP total)",
+              "rowLabel": "GWP - total1",
+              "columnLabel": "A1-A3",
+              "sourceLabel": "GWP - total1",
+              "rawText": "GWP - total1 kg COe 2 2.76E+02 1.50E+01 5.60E+00 2.97E+02",
+              "extractionMethod": "pdf_table_manual_verified"
+            },
+            "extractionConfidence": "high",
+            "reviewStatus": "reviewed"
+          }
+        },
+        "C1": {
+          "gwpTotal": {
+            "indicator": "gwp_total",
+            "sourceLabel": "GWP - total",
+            "module": "C1",
+            "value": 4.45,
+            "rawValue": "4.45E+00",
+            "unit": "kg CO2e",
+            "status": "declared",
+            "provenance": {
+              "pdfFile": "EPD_HUB-5882_2026-06-27_en.pdf",
+              "page": 14,
+              "section": "Environmental impact indicators",
+              "tableLabel": "Core environmental impact indicators (GWP total)",
+              "rowLabel": "GWP - total",
+              "columnLabel": "C1",
+              "sourceLabel": "GWP - total",
+              "rawText": "GWP - total kg COe 2 4.45E+00 1.26E+01 7.16E+00 4.38E+00 -1.28E+01",
+              "extractionMethod": "pdf_table_manual_verified"
+            },
+            "extractionConfidence": "high",
+            "reviewStatus": "reviewed"
+          }
+        },
+        "C2": {
+          "gwpTotal": {
+            "indicator": "gwp_total",
+            "sourceLabel": "GWP - total",
+            "module": "C2",
+            "value": 12.6,
+            "rawValue": "1.26E+01",
+            "unit": "kg CO2e",
+            "status": "declared",
+            "provenance": {
+              "pdfFile": "EPD_HUB-5882_2026-06-27_en.pdf",
+              "page": 14,
+              "section": "Environmental impact indicators",
+              "tableLabel": "Core environmental impact indicators (GWP total)",
+              "rowLabel": "GWP - total",
+              "columnLabel": "C2",
+              "sourceLabel": "GWP - total",
+              "rawText": "GWP - total kg COe 2 4.45E+00 1.26E+01 7.16E+00 4.38E+00 -1.28E+01",
+              "extractionMethod": "pdf_table_manual_verified"
+            },
+            "extractionConfidence": "high",
+            "reviewStatus": "reviewed"
+          }
+        },
+        "C3": {
+          "gwpTotal": {
+            "indicator": "gwp_total",
+            "sourceLabel": "GWP - total",
+            "module": "C3",
+            "value": 7.16,
+            "rawValue": "7.16E+00",
+            "unit": "kg CO2e",
+            "status": "declared",
+            "provenance": {
+              "pdfFile": "EPD_HUB-5882_2026-06-27_en.pdf",
+              "page": 14,
+              "section": "Environmental impact indicators",
+              "tableLabel": "Core environmental impact indicators (GWP total)",
+              "rowLabel": "GWP - total",
+              "columnLabel": "C3",
+              "sourceLabel": "GWP - total",
+              "rawText": "GWP - total kg COe 2 4.45E+00 1.26E+01 7.16E+00 4.38E+00 -1.28E+01",
+              "extractionMethod": "pdf_table_manual_verified"
+            },
+            "extractionConfidence": "high",
+            "reviewStatus": "reviewed"
+          }
+        },
+        "C4": {
+          "gwpTotal": {
+            "indicator": "gwp_total",
+            "sourceLabel": "GWP - total",
+            "module": "C4",
+            "value": 4.38,
+            "rawValue": "4.38E+00",
+            "unit": "kg CO2e",
+            "status": "declared",
+            "provenance": {
+              "pdfFile": "EPD_HUB-5882_2026-06-27_en.pdf",
+              "page": 14,
+              "section": "Environmental impact indicators",
+              "tableLabel": "Core environmental impact indicators (GWP total)",
+              "rowLabel": "GWP - total",
+              "columnLabel": "C4",
+              "sourceLabel": "GWP - total",
+              "rawText": "GWP - total kg COe 2 4.45E+00 1.26E+01 7.16E+00 4.38E+00 -1.28E+01",
+              "extractionMethod": "pdf_table_manual_verified"
+            },
+            "extractionConfidence": "high",
+            "reviewStatus": "reviewed"
+          }
+        },
+        "D": {
+          "gwpTotal": {
+            "indicator": "gwp_total",
+            "sourceLabel": "GWP - total",
+            "module": "D",
+            "value": -12.8,
+            "rawValue": "-1.28E+01",
+            "unit": "kg CO2e",
+            "status": "declared",
+            "provenance": {
+              "pdfFile": "EPD_HUB-5882_2026-06-27_en.pdf",
+              "page": 14,
+              "section": "Environmental impact indicators",
+              "tableLabel": "Core environmental impact indicators (GWP total)",
+              "rowLabel": "GWP - total",
+              "columnLabel": "D",
+              "sourceLabel": "GWP - total",
+              "rawText": "GWP - total kg COe 2 4.45E+00 1.26E+01 7.16E+00 4.38E+00 -1.28E+01",
+              "extractionMethod": "pdf_table_manual_verified"
+            },
+            "extractionConfidence": "high",
+            "reviewStatus": "reviewed",
+            "reviewNote": "Negative value declared in source (module benefit/credit); provenance-backed."
+          }
+        }
+      },
+      "reviewNotes": [
+        "Lifecycle GWP totals cross-validated from pdfplumber table extraction against the EPD impact tables."
+      ],
+      "declaredUnitMassKg": {
+        "value": 2338.0,
+        "unit": "kg",
+        "status": "declared",
+        "provenance": {
+          "pdfFile": "EPD_HUB-5882_2026-06-27_en.pdf",
+          "page": 4,
+          "section": "Environmental data summary",
+          "tableLabel": null,
+          "rowLabel": "Declared unit mass, kg",
+          "columnLabel": "Value",
+          "sourceLabel": "Declared unit mass, kg",
+          "rawText": "Declared unit mass, kg 2338",
+          "extractionMethod": "pdf_text_manual_verified"
+        },
+        "reviewStatus": "reviewed"
+      }
+    }
+  ],
+  "reviewNotes": [
+    "Values source-reviewed via text/table cross-validation of pdfplumber output against the source EPD (page rendering unavailable in the build environment)."
+  ]
+}

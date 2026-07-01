@@ -1,0 +1,52 @@
+{
+  "schemaVersion": "1.0.0",
+  "extractionVersion": "2026-07-01T01:30:50Z",
+  "sourcePdf": {
+    "fileName": "epd-ies-0021165-sn252f100.pdf",
+    "pageCount": 40,
+    "textCharCount": 59115,
+    "family": "Other IES / consultant EPD"
+  },
+  "epd": {
+    "declarationNumber": "EPD-IES-0021165",
+    "programOperator": "EPD International AB",
+    "publisher": null,
+    "validUntil": "13-03-2030"
+  },
+  "products": [
+    {
+      "id": "epd-ies-0021165-sn252f100-pdf",
+      "name": "Adbri Concrete SN252F100",
+      "manufacturer": "Adbri",
+      "declaredUnit": {
+        "value": null,
+        "status": "missing",
+        "provenance": null,
+        "reviewStatus": "needs_review"
+      },
+      "compressiveStrength": {
+        "value": null,
+        "unit": "MPa",
+        "status": "missing",
+        "provenance": null,
+        "reviewStatus": "needs_review"
+      },
+      "manufacturingLocation": {
+        "value": null,
+        "status": "missing",
+        "provenance": null,
+        "reviewStatus": "needs_review"
+      },
+      "comparisonStatus": "review_required",
+      "comparisonStatusReason": "Multi-mix / site-variation EPD whose GWP totals are reported in mix-specific tables without a single clean lifecycle-module header; not source-reviewed into comparable per-product values. Visible for review, excluded from comparison.",
+      "lifecycleModules": {},
+      "reviewNotes": [
+        "GWP totals present in the PDF but in a non-standard mix-specific layout; require manual per-mix review before comparison."
+      ]
+    }
+  ],
+  "reviewNotes": [
+    "Values source-reviewed via text/table cross-validation of pdfplumber output against the source EPD (page rendering unavailable in the build environment).",
+    "No GWP-total lifecycle row was mapped from tables in the automated pass."
+  ]
+}

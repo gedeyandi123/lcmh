@@ -1,0 +1,277 @@
+{
+  "schemaVersion": "1.0.0",
+  "extractionVersion": "2026-07-01T01:30:50Z",
+  "sourcePdf": {
+    "fileName": "epd-australasia-com-wp-content-uploads-2025-05-epd-ies-0029695-001-holcim-qld-brisbane-ecopact-qe252m100-2026-04-15-1-pdf.pdf",
+    "pageCount": 21,
+    "textCharCount": 47211,
+    "family": "Holcim EPD Australasia"
+  },
+  "epd": {
+    "declarationNumber": "EPD-IES-0029695:001",
+    "programOperator": "EPD International AB",
+    "publisher": null,
+    "validUntil": "15/4/2031"
+  },
+  "products": [
+    {
+      "id": "qld-brisbane-ecopact-qe252m100-s25-20-100-ecopact-co",
+      "name": "QLD - Brisbane - ECOPact - QE252M100 - S25/20/100 Ecopact Concrete - General",
+      "manufacturer": "Holcim",
+      "declaredUnit": {
+        "value": "1 m3 of ready-mix concrete",
+        "status": "declared",
+        "provenance": {
+          "pdfFile": "epd-australasia-com-wp-content-uploads-2025-05-epd-ies-0029695-001-holcim-qld-brisbane-ecopact-qe252m100-2026-04-15-1-pdf.pdf",
+          "page": 6,
+          "section": "Declared unit",
+          "tableLabel": null,
+          "rowLabel": "Declared unit",
+          "columnLabel": "Value",
+          "sourceLabel": "Declared unit",
+          "rawText": "1 m3 of ready-mix concrete.",
+          "extractionMethod": "pdf_text_manual_verified"
+        },
+        "reviewStatus": "reviewed"
+      },
+      "compressiveStrength": {
+        "value": 25.0,
+        "unit": "MPa",
+        "status": "declared",
+        "provenance": {
+          "pdfFile": "epd-australasia-com-wp-content-uploads-2025-05-epd-ies-0029695-001-holcim-qld-brisbane-ecopact-qe252m100-2026-04-15-1-pdf.pdf",
+          "page": 1,
+          "section": "Product information",
+          "tableLabel": null,
+          "rowLabel": "Strength grade (read from mix designation in declaration title)",
+          "columnLabel": "Value",
+          "sourceLabel": "Strength / mix designation",
+          "rawText": "QLD - Brisbane - ECOPact - QE252M100 - S25/20/100 Ecopact Concrete - General",
+          "extractionMethod": "pdf_text_manual_verified"
+        },
+        "reviewStatus": "reviewed",
+        "reviewNote": "Strength read from the product/mix designation in the source; verify against mix spec."
+      },
+      "manufacturingLocation": {
+        "value": "Brisbane",
+        "status": "declared",
+        "provenance": {
+          "pdfFile": "epd-australasia-com-wp-content-uploads-2025-05-epd-ies-0029695-001-holcim-qld-brisbane-ecopact-qe252m100-2026-04-15-1-pdf.pdf",
+          "page": 1,
+          "section": "Manufacturer and site",
+          "tableLabel": null,
+          "rowLabel": "Manufacturing region (read from declaration title)",
+          "columnLabel": "Value",
+          "sourceLabel": "Manufacturing region (declaration title)",
+          "rawText": "QLD - Brisbane - ECOPact - QE252M100 - S25/20/100 Ecopact Concrete - General",
+          "extractionMethod": "pdf_text_manual_verified"
+        },
+        "reviewStatus": "reviewed"
+      },
+      "comparisonStatus": "comparison_eligible",
+      "comparisonStatusReason": "Reviewed A1-A3 GWP total declared for the declared unit with value-level provenance; lifecycle modules source-reviewed from the impact table.",
+      "lifecycleModules": {
+        "A1-A3": {
+          "gwpTotal": {
+            "indicator": "gwp_total",
+            "sourceLabel": "GWP-tot",
+            "module": "A1-A3",
+            "value": 146.0,
+            "rawValue": "146",
+            "unit": "kg CO2e",
+            "status": "declared",
+            "provenance": {
+              "pdfFile": "epd-australasia-com-wp-content-uploads-2025-05-epd-ies-0029695-001-holcim-qld-brisbane-ecopact-qe252m100-2026-04-15-1-pdf.pdf",
+              "page": 16,
+              "section": "Environmental impact indicators",
+              "tableLabel": "Core environmental impact indicators (GWP total)",
+              "rowLabel": "GWP-Total",
+              "columnLabel": "A1-A3",
+              "sourceLabel": "GWP-tot",
+              "rawText": "GWP-Total kg CO eq. 2 146 2.58 12.9 0.522 4.31 10.4 0 -18.5",
+              "extractionMethod": "pdf_table_manual_verified"
+            },
+            "extractionConfidence": "high",
+            "reviewStatus": "reviewed"
+          }
+        },
+        "A4": {
+          "gwpTotal": {
+            "indicator": "gwp_total",
+            "sourceLabel": "GWP-tot",
+            "module": "A4",
+            "value": 2.58,
+            "rawValue": "2.58",
+            "unit": "kg CO2e",
+            "status": "declared",
+            "provenance": {
+              "pdfFile": "epd-australasia-com-wp-content-uploads-2025-05-epd-ies-0029695-001-holcim-qld-brisbane-ecopact-qe252m100-2026-04-15-1-pdf.pdf",
+              "page": 16,
+              "section": "Environmental impact indicators",
+              "tableLabel": "Core environmental impact indicators (GWP total)",
+              "rowLabel": "GWP-Total",
+              "columnLabel": "A4",
+              "sourceLabel": "GWP-tot",
+              "rawText": "GWP-Total kg CO eq. 2 146 2.58 12.9 0.522 4.31 10.4 0 -18.5",
+              "extractionMethod": "pdf_table_manual_verified"
+            },
+            "extractionConfidence": "high",
+            "reviewStatus": "reviewed"
+          }
+        },
+        "A5": {
+          "gwpTotal": {
+            "indicator": "gwp_total",
+            "sourceLabel": "GWP-tot",
+            "module": "A5",
+            "value": 12.9,
+            "rawValue": "12.9",
+            "unit": "kg CO2e",
+            "status": "declared",
+            "provenance": {
+              "pdfFile": "epd-australasia-com-wp-content-uploads-2025-05-epd-ies-0029695-001-holcim-qld-brisbane-ecopact-qe252m100-2026-04-15-1-pdf.pdf",
+              "page": 16,
+              "section": "Environmental impact indicators",
+              "tableLabel": "Core environmental impact indicators (GWP total)",
+              "rowLabel": "GWP-Total",
+              "columnLabel": "A5",
+              "sourceLabel": "GWP-tot",
+              "rawText": "GWP-Total kg CO eq. 2 146 2.58 12.9 0.522 4.31 10.4 0 -18.5",
+              "extractionMethod": "pdf_table_manual_verified"
+            },
+            "extractionConfidence": "high",
+            "reviewStatus": "reviewed"
+          }
+        },
+        "C1": {
+          "gwpTotal": {
+            "indicator": "gwp_total",
+            "sourceLabel": "GWP-tot",
+            "module": "C1",
+            "value": 0.522,
+            "rawValue": "0.522",
+            "unit": "kg CO2e",
+            "status": "declared",
+            "provenance": {
+              "pdfFile": "epd-australasia-com-wp-content-uploads-2025-05-epd-ies-0029695-001-holcim-qld-brisbane-ecopact-qe252m100-2026-04-15-1-pdf.pdf",
+              "page": 16,
+              "section": "Environmental impact indicators",
+              "tableLabel": "Core environmental impact indicators (GWP total)",
+              "rowLabel": "GWP-Total",
+              "columnLabel": "C1",
+              "sourceLabel": "GWP-tot",
+              "rawText": "GWP-Total kg CO eq. 2 146 2.58 12.9 0.522 4.31 10.4 0 -18.5",
+              "extractionMethod": "pdf_table_manual_verified"
+            },
+            "extractionConfidence": "high",
+            "reviewStatus": "reviewed"
+          }
+        },
+        "C2": {
+          "gwpTotal": {
+            "indicator": "gwp_total",
+            "sourceLabel": "GWP-tot",
+            "module": "C2",
+            "value": 4.31,
+            "rawValue": "4.31",
+            "unit": "kg CO2e",
+            "status": "declared",
+            "provenance": {
+              "pdfFile": "epd-australasia-com-wp-content-uploads-2025-05-epd-ies-0029695-001-holcim-qld-brisbane-ecopact-qe252m100-2026-04-15-1-pdf.pdf",
+              "page": 16,
+              "section": "Environmental impact indicators",
+              "tableLabel": "Core environmental impact indicators (GWP total)",
+              "rowLabel": "GWP-Total",
+              "columnLabel": "C2",
+              "sourceLabel": "GWP-tot",
+              "rawText": "GWP-Total kg CO eq. 2 146 2.58 12.9 0.522 4.31 10.4 0 -18.5",
+              "extractionMethod": "pdf_table_manual_verified"
+            },
+            "extractionConfidence": "high",
+            "reviewStatus": "reviewed"
+          }
+        },
+        "C3": {
+          "gwpTotal": {
+            "indicator": "gwp_total",
+            "sourceLabel": "GWP-tot",
+            "module": "C3",
+            "value": 10.4,
+            "rawValue": "10.4",
+            "unit": "kg CO2e",
+            "status": "declared",
+            "provenance": {
+              "pdfFile": "epd-australasia-com-wp-content-uploads-2025-05-epd-ies-0029695-001-holcim-qld-brisbane-ecopact-qe252m100-2026-04-15-1-pdf.pdf",
+              "page": 16,
+              "section": "Environmental impact indicators",
+              "tableLabel": "Core environmental impact indicators (GWP total)",
+              "rowLabel": "GWP-Total",
+              "columnLabel": "C3",
+              "sourceLabel": "GWP-tot",
+              "rawText": "GWP-Total kg CO eq. 2 146 2.58 12.9 0.522 4.31 10.4 0 -18.5",
+              "extractionMethod": "pdf_table_manual_verified"
+            },
+            "extractionConfidence": "high",
+            "reviewStatus": "reviewed"
+          }
+        },
+        "C4": {
+          "gwpTotal": {
+            "indicator": "gwp_total",
+            "sourceLabel": "GWP-tot",
+            "module": "C4",
+            "value": 0.0,
+            "rawValue": "0",
+            "unit": "kg CO2e",
+            "status": "declared",
+            "provenance": {
+              "pdfFile": "epd-australasia-com-wp-content-uploads-2025-05-epd-ies-0029695-001-holcim-qld-brisbane-ecopact-qe252m100-2026-04-15-1-pdf.pdf",
+              "page": 16,
+              "section": "Environmental impact indicators",
+              "tableLabel": "Core environmental impact indicators (GWP total)",
+              "rowLabel": "GWP-Total",
+              "columnLabel": "C4",
+              "sourceLabel": "GWP-tot",
+              "rawText": "GWP-Total kg CO eq. 2 146 2.58 12.9 0.522 4.31 10.4 0 -18.5",
+              "extractionMethod": "pdf_table_manual_verified"
+            },
+            "extractionConfidence": "high",
+            "reviewStatus": "reviewed",
+            "reviewNote": "EPD declares this module as 0 in the source table; kept as declared zero, not missing."
+          }
+        },
+        "D": {
+          "gwpTotal": {
+            "indicator": "gwp_total",
+            "sourceLabel": "GWP-tot",
+            "module": "D",
+            "value": -18.5,
+            "rawValue": "-18.5",
+            "unit": "kg CO2e",
+            "status": "declared",
+            "provenance": {
+              "pdfFile": "epd-australasia-com-wp-content-uploads-2025-05-epd-ies-0029695-001-holcim-qld-brisbane-ecopact-qe252m100-2026-04-15-1-pdf.pdf",
+              "page": 16,
+              "section": "Environmental impact indicators",
+              "tableLabel": "Core environmental impact indicators (GWP total)",
+              "rowLabel": "GWP-Total",
+              "columnLabel": "D",
+              "sourceLabel": "GWP-tot",
+              "rawText": "GWP-Total kg CO eq. 2 146 2.58 12.9 0.522 4.31 10.4 0 -18.5",
+              "extractionMethod": "pdf_table_manual_verified"
+            },
+            "extractionConfidence": "high",
+            "reviewStatus": "reviewed",
+            "reviewNote": "Negative value declared in source (module benefit/credit); provenance-backed."
+          }
+        }
+      },
+      "reviewNotes": [
+        "Lifecycle GWP totals cross-validated from pdfplumber table extraction against the EPD impact table."
+      ]
+    }
+  ],
+  "reviewNotes": [
+    "Values source-reviewed via text/table cross-validation of pdfplumber output against the source EPD (page rendering unavailable in the build environment)."
+  ]
+}

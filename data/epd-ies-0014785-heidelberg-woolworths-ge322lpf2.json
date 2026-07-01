@@ -1,0 +1,52 @@
+{
+  "schemaVersion": "1.0.0",
+  "extractionVersion": "2026-07-01T01:30:50Z",
+  "sourcePdf": {
+    "fileName": "EPD-IES-0014785_Heidelberg_Woolworths-GE322LPF2.pdf",
+    "pageCount": 24,
+    "textCharCount": 36414,
+    "family": "Other IES / consultant EPD"
+  },
+  "epd": {
+    "declarationNumber": "EPD-IES-0014785:001",
+    "programOperator": null,
+    "publisher": null,
+    "validUntil": "2029-11-19"
+  },
+  "products": [
+    {
+      "id": "epd-ies-0014785-heidelberg-woolworths-ge322lpf2-pdf",
+      "name": "GE322LPF2",
+      "manufacturer": "Heidelberg Materials",
+      "declaredUnit": {
+        "value": null,
+        "status": "missing",
+        "provenance": null,
+        "reviewStatus": "needs_review"
+      },
+      "compressiveStrength": {
+        "value": null,
+        "unit": "MPa",
+        "status": "missing",
+        "provenance": null,
+        "reviewStatus": "needs_review"
+      },
+      "manufacturingLocation": {
+        "value": null,
+        "status": "missing",
+        "provenance": null,
+        "reviewStatus": "needs_review"
+      },
+      "comparisonStatus": "review_required",
+      "comparisonStatusReason": "Multi-mix / site-variation EPD whose GWP totals are reported in mix-specific tables without a single clean lifecycle-module header; not source-reviewed into comparable per-product values. Visible for review, excluded from comparison.",
+      "lifecycleModules": {},
+      "reviewNotes": [
+        "GWP totals present in the PDF but in a non-standard mix-specific layout; require manual per-mix review before comparison."
+      ]
+    }
+  ],
+  "reviewNotes": [
+    "Values source-reviewed via text/table cross-validation of pdfplumber output against the source EPD (page rendering unavailable in the build environment).",
+    "No GWP-total lifecycle row was mapped from tables in the automated pass."
+  ]
+}

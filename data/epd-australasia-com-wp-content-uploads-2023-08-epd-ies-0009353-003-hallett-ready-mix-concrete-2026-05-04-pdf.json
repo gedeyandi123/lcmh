@@ -1,0 +1,52 @@
+{
+  "schemaVersion": "1.0.0",
+  "extractionVersion": "2026-07-01T01:30:50Z",
+  "sourcePdf": {
+    "fileName": "epd-australasia-com-wp-content-uploads-2023-08-epd-ies-0009353-003-hallett-ready-mix-concrete-2026-05-04-pdf.pdf",
+    "pageCount": 37,
+    "textCharCount": 121429,
+    "family": "Hallett multi-product"
+  },
+  "epd": {
+    "declarationNumber": "EPD-IES-0009353:003",
+    "programOperator": "EPD International AB",
+    "publisher": null,
+    "validUntil": null
+  },
+  "products": [
+    {
+      "id": "epd-australasia-com-wp-content-uploads-2023-08-epd-ies-00093",
+      "name": "Hallett Ready Mix Concrete Products",
+      "manufacturer": "Hallett",
+      "declaredUnit": {
+        "value": null,
+        "status": "missing",
+        "provenance": null,
+        "reviewStatus": "needs_review"
+      },
+      "compressiveStrength": {
+        "value": null,
+        "unit": "MPa",
+        "status": "missing",
+        "provenance": null,
+        "reviewStatus": "needs_review"
+      },
+      "manufacturingLocation": {
+        "value": null,
+        "status": "missing",
+        "provenance": null,
+        "reviewStatus": "needs_review"
+      },
+      "comparisonStatus": "grouped_declaration",
+      "comparisonStatusReason": "Grouped/multi-product declaration covering multiple mixes or plants; not separable into a single comparable product record without further review. Excluded from product-level comparison.",
+      "lifecycleModules": {},
+      "reviewNotes": [
+        "Grouped declaration. Candidate lifecycle rows exist in the source but are not encoded as a single comparable product to avoid mixing mixes/plants."
+      ]
+    }
+  ],
+  "reviewNotes": [
+    "Values source-reviewed via text/table cross-validation of pdfplumber output against the source EPD (page rendering unavailable in the build environment).",
+    "Multi-product/multi-plant declaration; do not force product-level comparison without manual split."
+  ]
+}
