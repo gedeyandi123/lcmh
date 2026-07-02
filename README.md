@@ -13,8 +13,7 @@ carbon figure is traceable to the exact page, table, row, and column of its sour
 
 ## Live deployment
 
-_Vercel link: pending. The app has not yet been deployed — see [Deployment](#deployment) below
-for the steps to deploy it once this branch is pushed to a GitHub remote._
+Live app: [https://lcmh.vercel.app/](https://lcmh.vercel.app/)
 
 ## Setup
 
@@ -135,16 +134,12 @@ carried over from the Part 1 provenance rule:
 
 ## Deployment
 
-The app has not been deployed yet (no live URL below is fabricated — deployment requires
-pushing this branch to the user's own GitHub remote and importing it into their Vercel account,
-neither of which the implementing agent has access to). Steps to deploy once ready:
+The app is deployed on Vercel:
 
-1. Push `feat/part2-app` (or its merge into `main`) to a GitHub remote.
-2. In Vercel, "Add New Project" → import the GitHub repository.
-3. Framework preset is auto-detected as **Next.js**; no changes needed.
-4. Build command: `npm run build` (default; runs `prebuild` → `validate:data` first).
-5. No environment variables are required — the app has no external services or secrets.
-6. Deploy, then replace the "pending" note under **Live deployment** above with the resulting URL.
+- Live URL: [https://lcmh.vercel.app/](https://lcmh.vercel.app/)
+- Framework preset: **Next.js**
+- Build command: `npm run build` (runs `prebuild` -> `validate:data` first)
+- Environment variables: none required; the app has no external services or secrets
 
 ## Repository
 
@@ -171,4 +166,4 @@ EXTRACTION.md          extraction reasoning memo (Part 1)
 - [x] [EXTRACTION.md](EXTRACTION.md) covers strategy, tooling, accuracy, process
 - [x] Part 2 app: comparison table, filters, provenance panel, methodology page
 - [x] Full gate green: `validate:data` (20/20), `typecheck`, `test` (36/36), `lint`, `build`
-- [ ] Pushed to GitHub remote and deployed to Vercel (user action — see [Deployment](#deployment))
+- [x] Pushed to GitHub remote and deployed to Vercel: [https://lcmh.vercel.app/](https://lcmh.vercel.app/)
